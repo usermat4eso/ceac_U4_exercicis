@@ -28,3 +28,32 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, main, menu, nav, section {
   display: block;
 }
+
+.reveal .resposta{
+  
+  color:blue;
+  text-align: left;
+  font-family: "Delicious Handrawn", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:120%;
+
+}
+
+.reveal .pregunta{
+  font-weight: 800;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+th {
+  background-color: #f4f4f4;
+}

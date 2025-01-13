@@ -1,5 +1,5 @@
 @use "sass:color";
-
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
 // Base settings for all themes that can optionally be
 // overridden by the super-theme
 
@@ -8,7 +8,7 @@ $backgroundColor: #2b2b2b;
 
 // Primary/body text
 $mainFont: 'Lato', sans-serif;
-$mainFontSize: 40px;
+$mainFontSize: 20px;
 $mainColor: #eee;
 
 // Vertical spacing between blocks of text
@@ -16,7 +16,7 @@ $blockMargin: 20px;
 
 // Headings
 $headingMargin: 0 0 $blockMargin 0;
-$headingFont: 'League Gothic', Impact, sans-serif;
+$headingFont: 'Handlee', Impact, sans-serif;
 $headingColor: #eee;
 $headingLineHeight: 1.2;
 $headingLetterSpacing: normal;
@@ -25,10 +25,10 @@ $headingTextShadow: none;
 $headingFontWeight: normal;
 $heading1TextShadow: $headingTextShadow;
 
-$heading1Size: 3.77em;
-$heading2Size: 2.11em;
-$heading3Size: 1.55em;
-$heading4Size: 1.00em;
+$heading1Size: 3em;
+$heading2Size: 2.5em;
+$heading3Size: 1.5em;
+$heading4Size: .88em;
 
 $codeFont: monospace;
 

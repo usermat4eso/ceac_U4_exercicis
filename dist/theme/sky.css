@@ -3,6 +3,7 @@
  *
  * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
 @import url(https://fonts.googleapis.com/css?family=Quicksand:400,700,400italic,700italic);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
 .reveal a {
@@ -19,7 +20,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 :root {
   --r-background-color: #f7fbfc;
   --r-main-font: Open Sans, sans-serif;
-  --r-main-font-size: 40px;
+  --r-main-font-size: 20px;
   --r-main-color: #333;
   --r-block-margin: 20px;
   --r-heading-margin: 0 0 20px 0;
@@ -31,10 +32,10 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   --r-heading-text-shadow: none;
   --r-heading-font-weight: normal;
   --r-heading1-text-shadow: none;
-  --r-heading1-size: 3.77em;
-  --r-heading2-size: 2.11em;
-  --r-heading3-size: 1.55em;
-  --r-heading4-size: 1em;
+  --r-heading1-size: 3em;
+  --r-heading2-size: 2.5em;
+  --r-heading3-size: 1.5em;
+  --r-heading4-size: 0.88em;
   --r-code-font: monospace;
   --r-link-color: #3b759e;
   --r-link-color-dark: rgb(50.15, 99.45, 134.3);

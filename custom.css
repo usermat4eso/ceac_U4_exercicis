@@ -1,0 +1,29 @@
+.reveal .header {
+    display: flex;
+    justify-content: space-between; /* Distribueix el contingut entre esquerra i dreta */
+    align-items: center; /* Alineació vertical */
+    position: fixed;
+    top: 0; /* Sempre visible a la part superior */
+    width: 100%; /* Amplada completa */
+    box-sizing: border-box; /* Inclou padding i borders dins del width */
+    padding: 10px 20px; /* Espai interior */
+  
+    z-index: 1000; /* Prioritat sobre les diapositives */
+    font-size: .8em; /* Escalabilitat del text */
+    overflow: hidden; /* Assegura que el contingut fora del límit no es mostri */
+}
+
+.reveal .header .left, .reveal .header .right {
+    flex: 1; /* Cada secció ocupa un màxim d'amplada disponible */
+    white-space: nowrap; /* Evita trencaments de línia */
+    overflow: hidden; /* Text desbordat queda ocult */
+    text-overflow: ellipsis; /* Mostra "..." si el text no cap */
+}
+
+.reveal .header .right {
+    text-align: right; /* Alinia el text de la dreta */
+}
+
+.reveal .first:hover{
+    font-size: 120%;
+}
